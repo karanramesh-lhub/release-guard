@@ -1,0 +1,49 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+virtualenv/
+venv/
+.venv/
+
+# Environment and secrets
+.env
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+
+# Environment and credentials
+.env
+*.pem
+*.key
+
+# Terraform state and generated files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+virtualenv/
+venv/
+.venv/
+
+# macOS
+.DS_Store
